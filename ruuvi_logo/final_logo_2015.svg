@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="183.84233mm"
@@ -17,7 +18,12 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="final_logo_2015.svg">
   <defs
-     id="defs3458" />
+     id="defs3458">
+    <color-profile
+       name="Generic-CMYK-Profile"
+       xlink:href="/System/Library/ColorSync/Profiles/Generic CMYK Profile.icc"
+       id="color-profile5846" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,7 +32,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="361.13966"
+     inkscape:cx="257.56823"
      inkscape:cy="50.694578"
      inkscape:document-units="px"
      inkscape:current-layer="g4949-0-86-4"
@@ -48,7 +54,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>

@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="42.95388mm"
@@ -17,7 +18,12 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="final_eye_2015.svg">
   <defs
-     id="defs3458" />
+     id="defs3458">
+    <color-profile
+       name="Generic-CMYK-Profile"
+       xlink:href="/System/Library/ColorSync/Profiles/Generic CMYK Profile.icc"
+       id="color-profile6397" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,10 +32,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="-71.99993"
+     inkscape:cx="-175.57136"
      inkscape:cy="79.266009"
      inkscape:document-units="px"
-     inkscape:current-layer="g4188-0-0-1-4-6-4-8-9-3-41-4-9-6"
+     inkscape:current-layer="g4949-0-86-4"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -48,7 +54,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -71,7 +77,7 @@
       <g
          transform="matrix(0.78124733,0,0,0.78124733,47.97404,63.171149)"
          id="g4188-0-0-1-4-6-4-8-9-3-41-4-9-6"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#393939;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
         <path
            sodipodi:nodetypes="ccssscccccscccsccc"
            style="fill:#333333;fill-opacity:1"
