@@ -1,0 +1,209 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ntag_nt3h1x01
+LIBS:credit_card
+LIBS:businesscard_a1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Business Card"
+Date "2015-06-27"
+Rev "A1"
+Comp "Ruuvi Innovations Ltd."
+Comment1 "License: https://creativecommons.org/licenses/by-sa/4.0/"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NTAG_NT3H1X01 U1
+U 1 1 558F2E4E
+P 5800 3950
+F 0 "U1" H 5300 3600 60  0000 C CNN
+F 1 "NTAG_NT3H1X01" H 6000 3600 60  0000 C CNN
+F 2 "business-card:SOT902-3" H 5800 3550 60  0001 C CNN
+F 3 "" H 5800 3550 60  0000 C CNN
+	1    5800 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3750 10250 3750
+Wire Wire Line
+	10250 3750 10250 1350
+Wire Wire Line
+	10250 1350 1400 1350
+Wire Wire Line
+	1400 1350 1400 5300
+Wire Wire Line
+	1400 5300 10150 5300
+Wire Wire Line
+	10150 5300 10150 1450
+Wire Wire Line
+	10150 1450 1500 1450
+Wire Wire Line
+	1500 1450 1500 5200
+Wire Wire Line
+	1500 5200 10050 5200
+Wire Wire Line
+	10050 5200 10050 1550
+Wire Wire Line
+	10050 1550 1600 1550
+Wire Wire Line
+	1600 1550 1600 5100
+Wire Wire Line
+	1600 5100 9950 5100
+Wire Wire Line
+	9950 5100 9950 3850
+Wire Wire Line
+	9950 3850 7300 3850
+$Comp
+L LED D1
+U 1 1 558F2F4F
+P 4550 3850
+F 0 "D1" H 4550 3950 50  0000 C CNN
+F 1 "LED" H 4550 3750 50  0000 C CNN
+F 2 "business-card:0402_LED" H 4550 3850 60  0001 C CNN
+F 3 "" H 4550 3850 60  0000 C CNN
+	1    4550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 558F303C
+P 5050 4150
+F 0 "#PWR01" H 5050 3900 50  0001 C CNN
+F 1 "GND" V 5050 3950 50  0000 C CNN
+F 2 "" H 5050 4150 60  0000 C CNN
+F 3 "" H 5050 4150 60  0000 C CNN
+	1    5050 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 558F3054
+P 4350 3850
+F 0 "#PWR02" H 4350 3600 50  0001 C CNN
+F 1 "GND" V 4350 3650 50  0000 C CNN
+F 2 "" H 4350 3850 60  0000 C CNN
+F 3 "" H 4350 3850 60  0000 C CNN
+	1    4350 3850
+	0    1    1    0   
+$EndComp
+Text Notes 3700 2500 0    394  Italic 79
+Business Card
+$Comp
+L R R1
+U 1 1 56A5CD45
+P 4900 3850
+F 0 "R1" V 4980 3850 50  0000 C CNN
+F 1 "470" V 4900 3850 50  0000 C CNN
+F 2 "business-card:0402_RES" V 4830 3850 50  0001 C CNN
+F 3 "" H 4900 3850 50  0000 C CNN
+	1    4900 3850
+	0    1    1    0   
+$EndComp
+NoConn ~ 5050 4050
+NoConn ~ 6550 4050
+NoConn ~ 6550 4150
+$Comp
+L CONN_01X02 P1
+U 1 1 56A5CDC9
+P 6750 3800
+F 0 "P1" H 6750 3950 50  0000 C CNN
+F 1 "NFC" H 6900 3800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6750 3800 50  0001 C CNN
+F 3 "" H 6750 3800 50  0000 C CNN
+	1    6750 3800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7300 3750
+NoConn ~ 7300 3850
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 56A5D12D
+P 5050 4150
+F 0 "#FLG03" H 5050 4245 50  0001 C CNN
+F 1 "PWR_FLAG" H 5175 4350 50  0000 C CNN
+F 2 "" H 5050 4150 50  0000 C CNN
+F 3 "" H 5050 4150 50  0000 C CNN
+	1    5050 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L CREDIT_CARD P2
+U 1 1 56A5D479
+P 3100 4000
+F 0 "P2" H 3100 4300 60  0000 C CNN
+F 1 "CREDIT_CARD" H 3100 3700 60  0000 C CNN
+F 2 "business-card:CREDIT_CARD_CHIP_EMPTY" H 3100 4000 60  0001 C CNN
+F 3 "" H 3100 4000 60  0000 C CNN
+	1    3100 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3600 3850
+NoConn ~ 3600 3950
+NoConn ~ 3600 4050
+NoConn ~ 3600 4150
+NoConn ~ 2600 3850
+NoConn ~ 2600 3950
+NoConn ~ 2600 4050
+NoConn ~ 2600 4150
+$Comp
+L C C1
+U 1 1 56A6012D
+P 5000 3550
+F 0 "C1" H 5025 3650 50  0000 L CNN
+F 1 "C" H 5025 3450 50  0000 L CNN
+F 2 "business-card:0402_CAP" H 5038 3400 50  0001 C CNN
+F 3 "" H 5000 3550 50  0000 C CNN
+	1    5000 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 3750 5000 3750
+Wire Wire Line
+	5000 3750 5000 3700
+$Comp
+L GND #PWR?
+U 1 1 56A60199
+P 5000 3350
+F 0 "#PWR?" H 5000 3100 50  0001 C CNN
+F 1 "GND" V 5000 3150 50  0000 C CNN
+F 2 "" H 5000 3350 60  0000 C CNN
+F 3 "" H 5000 3350 60  0000 C CNN
+	1    5000 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 3350 5000 3400
+$EndSCHEMATC
