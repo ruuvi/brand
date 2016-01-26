@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/lauri/brand/business-card/businesscard_a1/businesscard_a1.sch)
-    (date "2016 January 26, Tuesday 01:05:55")
+    (date "2016 January 26, Tuesday 12:32:28")
     (tool "Eeschema 4.0.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -35,7 +35,7 @@
       (tstamp 56A5CD45))
     (comp (ref P1)
       (value NFC)
-      (footprint business-card:BUSINESS_NFC_ANTENNA_4X5CM)
+      (footprint business-card:BUSINESS_NFC_ANTENNA_4X5CM_NEW)
       (libsource (lib conn) (part CONN_01X02))
       (sheetpath (names /) (tstamps /))
       (tstamp 56A5CDC9))
@@ -132,14 +132,14 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
+    (library (logical ntag_nt3h1x01)
+      (uri /Users/lauri/brand/business-card/kicad_lib/ntag_nt3h1x01.lib))
     (library (logical device)
       (uri "/Library/Application Support/kicad/library/device.lib"))
     (library (logical conn)
       (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical credit_card)
-      (uri /Users/lauri/brand/business-card/kicad_lib/credit_card.lib))
-    (library (logical ntag_nt3h1x01)
-      (uri /Users/lauri/brand/business-card/kicad_lib/ntag_nt3h1x01.lib)))
+      (uri /Users/lauri/brand/business-card/kicad_lib/credit_card.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref P2) (pin C4))
