@@ -1,0 +1,5 @@
+Id,Designator,Package,Quantity,Designation,Manufacturer and part no.
+1,R1,0402_RES,1,470,General min 5% 0402 resistor
+2,D1,0402_LED,1,LED,Vishay Semiconductor Opto Division VLMO1500-GS08
+3,C1,0402_CAP,1,220n,General min 20% 10V 0402 capacitor
+4,U1,SOT902-3,1,NTAG_NT3H1X01,NXP Semiconductors NT3H1201W0FHK
