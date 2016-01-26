@@ -15,7 +15,7 @@ Minimum hole diameter:	0.3mm
 Layer files (in correct order):
  
 1. F.Cu (top)
-4. B.Cu (bottom)
+2. B.Cu (bottom)
        
 Technical contact:
 
