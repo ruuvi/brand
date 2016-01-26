@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Business Card"
-Date "2015-06-27"
+Date "2016-01-26"
 Rev "A1"
 Comp "Ruuvi Innovations Ltd."
 Comment1 "License: https://creativecommons.org/licenses/by-sa/4.0/"

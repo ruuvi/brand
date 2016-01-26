@@ -3,7 +3,7 @@
   (general
     (links 23)
     (no_connects 0)
-    (area 105.049999 70.049999 190.750001 124.150001)
+    (area 104.4329 66.4 196.480953 124.150001)
     (thickness 0.6)
     (drawings 14)
     (tracks 80)
@@ -37,12 +37,12 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.2)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
     (user_trace_width 0.5)
-    (trace_clearance 0.2)
+    (trace_clearance 0.195)
     (zone_clearance 0.508)
     (zone_45_only yes)
     (trace_min 0.2)
@@ -109,7 +109,7 @@
   (net 9 /LB)
 
   (net_class Default "This is the default net class."
-    (clearance 0.2)
+    (clearance 0.195)
     (trace_width 0.2)
     (via_dia 0.7)
     (via_drill 0.3)
