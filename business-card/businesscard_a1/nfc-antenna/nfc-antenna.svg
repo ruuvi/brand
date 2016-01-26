@@ -35,9 +35,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="76.247209"
-     inkscape:cy="51.992884"
+     inkscape:zoom="11.313708"
+     inkscape:cx="9.364867"
+     inkscape:cy="5.0177162"
      inkscape:document-units="mm"
      inkscape:current-layer="g4275"
      showgrid="true"
@@ -107,10 +107,11 @@
            id="g4275"
            style="opacity:0.5">
           <path
-             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.06299213;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-             d="m 177.81929,649.55087 0,-140.66929 176.10236,0 0,140.66929 -173.62205,0 0,-138.18897 171.14174,0 0,135.70866 -168.66142,0 0,-133.22835 166.1811,0 0,130.74803 -163.70079,0 0,-128.26771 161.22048,0 0,125.7874 -158.74016,0 0,0"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0629921;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 289.43525,642.1106 0,0 57.04546,-6.7e-4 0,-125.7874 -161.22048,0 0,128.26771 163.70079,0 0,-130.74803 -166.1811,0 0,133.22835 168.66142,0 0,-135.70866 -171.14174,0 0,138.18897 173.62205,0 0,-140.66929 -176.10236,0 0,143.14976 111.61417,-1.5e-4 0,0"
              id="path4192"
-             inkscape:connector-curvature="0" />
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cccccccccccccccccc" />
         </g>
       </g>
     </g>
