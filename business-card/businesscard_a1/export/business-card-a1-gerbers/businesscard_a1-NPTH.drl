@@ -3,15 +3,9 @@ M48
 ;FORMAT={-:-/ absolute / metric / decimal}
 FMAT,2
 METRIC,TZ
-T1C0.300
 %
 G90
 G05
 M71
-T1
-X119.5Y-92.8
-X120.Y-89.9
-X148.1Y-90.8
-X151.3Y-90.1
 T0
 M30
