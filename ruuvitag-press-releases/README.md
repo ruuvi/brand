@@ -2,4 +2,4 @@
 
 Sharing is caring.
 
-[High-resolution photos](/highres-images).
+[High-resolution photos](/ruuvitag-press-releases/highres-images).
