@@ -1,6 +1,6 @@
 # RuuviTag Press Releases
 
-[![RuuviTag](http://ruuvitag.com/assets/images/fb_ruuvitag.jpg)](http://ruuvitag.com)
+[![RuuviTag](http://ruuvitag.com/assets/images/coming-soon-to-kickstarter.jpg)](http://ruuvitag.com)
 
 Sharing is caring.
 
