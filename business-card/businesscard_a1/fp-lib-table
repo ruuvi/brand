@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name business-card)(type KiCad)(uri "$(KIPRJMOD)/../kicad_lib/business-card.pretty")(options "")(descr ""))
-)
